@@ -18,6 +18,7 @@ export default function ProjectCard({ project, isFinalCard }: IProjectCard) {
         } border-y-stone-600 border-opacity-20`}
       >
         <a
+          target="_blank"
           href={url === 'Coming Soon...' ? undefined : url}
           className="flex w-fit"
         >
