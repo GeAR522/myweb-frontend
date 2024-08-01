@@ -15,7 +15,7 @@ export default function ProjectCard({ project, isFinalCard }: IProjectCard) {
         id="project-card-inner"
         className={`${
           isFinalCard ? '' : 'border-b-2 pb-8'
-        } border-y-stone-600 border-opacity-20`}
+        } border-y-slate-400 border-opacity-30`}
       >
         <a
           target="_blank"
@@ -24,7 +24,7 @@ export default function ProjectCard({ project, isFinalCard }: IProjectCard) {
         >
           <div
             id="project-card-header"
-            className=" w-fit flex-col my-4 hover:bg-gray-500 py-4 px-2 rounded-lg"
+            className=" w-fit flex-col my-4 hover:bg-gray-500  py-4 px-2 rounded-lg"
           >
             <h3
               id="project-card-title"

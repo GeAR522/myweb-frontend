@@ -13,7 +13,7 @@ export default function Home() {
     <main className="flex w-full h-full overflow-y-auto">
       <div className=" overflow-y-auto ">
         <NavBar />
-        <div id="main" className="sm:ml-48 ">
+        <div id="main" className="sm:ml-48 text-white">
           <CenteredContent>
             <WelcomeBlock />
             <Divider />

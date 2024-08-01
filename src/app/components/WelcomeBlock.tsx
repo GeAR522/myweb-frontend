@@ -21,14 +21,19 @@ export default function WelcomeBlock() {
         target="_blank"
         href="https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/?practice-assessment-type=certification"
       >
-        <Image
-          className=" rounded-lg m-3"
-          id="power-bi-pic"
-          width={100}
-          height={45}
-          src="/power-bi-logo.png"
-          alt="power-bi-icon"
-        />
+        <div
+          id="power-bi-icon-container"
+          className="flex hover:bg-gray-400 hover:opacity-75 rounded-lg"
+        >
+          <Image
+            className=" rounded-lg m-5"
+            id="power-bi-pic"
+            width={100}
+            height={45}
+            src="/power-bi-logo.png"
+            alt="power-bi-icon"
+          />
+        </div>
       </a>
     </div>
   );
