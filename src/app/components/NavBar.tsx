@@ -37,28 +37,28 @@ export default function NavBar() {
           <a
             onClick={(e) => handleScrollTo(e, 'welcome-block')}
             href="#welcome-block"
-            className="block py-4 px-6 hover:bg-gray-700"
+            className="block py-4 px-6 hover-colour"
           >
             Home
           </a>
           <a
             onClick={(e) => handleScrollTo(e, 'about-block')}
             href="#about-block"
-            className="block py-4 px-6 hover:bg-gray-700"
+            className="block py-4 px-6 hover-colour"
           >
             About
           </a>
           <a
             onClick={(e) => handleScrollTo(e, 'projects-block')}
             href="#projects-block"
-            className="block py-4 px-6 hover:bg-gray-700"
+            className="block py-4 px-6 hover-colour"
           >
             Projects
           </a>
           <a
             onClick={(e) => handleScrollTo(e, 'employment-block')}
             href="#employment-block"
-            className="block py-4 px-6 hover:bg-gray-700"
+            className="block py-4 px-6 hover-colour"
           >
             Employment
           </a>

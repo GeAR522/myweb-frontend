@@ -47,6 +47,10 @@ body {
   @apply bg-blue_violet-800;
 }
 
+.hover-colour:hover {
+  @apply bg-blue_violet-400;
+}
+
 h1 {
   font-family: 'Dosis', sans-serif;
   font-optical-sizing: auto;

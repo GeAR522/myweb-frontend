@@ -47,7 +47,7 @@ export default function WelcomeBlock() {
       >
         <div
           id="power-bi-icon-container"
-          className="flex hover:bg-gray-400 rounded-lg"
+          className="flex hover-colour rounded-lg"
         >
           <Image
             className=" rounded-lg m-5"

@@ -24,7 +24,7 @@ export default function ProjectCard({ project, isFinalCard }: IProjectCard) {
         >
           <div
             id="project-card-header"
-            className=" w-fit flex-col my-4 hover:bg-gray-500  py-4 px-2 rounded-lg"
+            className=" w-fit flex-col my-4 hover-colour  py-4 px-2 rounded-lg"
           >
             <h3
               id="project-card-title"
