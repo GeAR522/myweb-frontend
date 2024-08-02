@@ -28,8 +28,8 @@
 }
 
 body {
+  @apply bg-blue_violet-200;
   color: rgb(var(--foreground-rgb));
-  background: rgb(99, 114, 138);
   font-family: 'Dosis', sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -37,6 +37,14 @@ body {
   overflow-y: auto;
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.container {
+  @apply w-full h-full p-6 bg-blue_violet-500 rounded-lg shadow-xl shadow-slate-900 overflow-hidden;
+}
+
+.navbar-bg {
+  @apply bg-blue_violet-800;
 }
 
 h1 {
@@ -64,10 +72,6 @@ h1 {
 
 .no-scrollbar::-webkit-scrollbar {
   display: none;
-}
-
-.container {
-  @apply w-full h-full p-6 bg-slate-600 rounded-lg shadow-xl shadow-slate-900 overflow-hidden;
 }
 
 @layer utilities {
