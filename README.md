@@ -1,5 +1,7 @@
 # My website
 
+Available at: https://www.garhodes.co.uk/
+
 This is the frontend of my simple website. It currently doesnt make any requests and is a static website.
 
 I plan to add the django backend I'm working on which will allow people to register, login, etc, and comment on posts which I will make.
@@ -7,7 +9,30 @@ A mini-blog so the speak to write about what I am learning and planning for the 
 
 This is a simple nextjs frontend project using React and Typescript. 
 
-It includes a small welcome message, a little bit about myself, my projects current projects, and my employment history.
+It includes a small welcome message, a little bit about myself, my current projects, and my employment history.
+
+--
+
+## TODO
+
+- Finish Django backend to add blog potsts + comments to site.
+
+- Add fade in to each section on intitial load
+
+- choose a proper colour palette and use it.
+
+- fix the rounding on profile picture
+
+- footer? (maybe not necessary)
+
+- link to linkedin somewhere
+
+- set more tailwind classes to simplify classnames of components.
+    - card
+    - fonts
+    - title/headers
+
+- extract some elements out of project and employment cards into a singular card and then try customise it within each section to make a more reuseable card component.
 
 
 
