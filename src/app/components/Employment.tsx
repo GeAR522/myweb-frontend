@@ -1,10 +1,35 @@
+'use client';
+
 import React from 'react';
 import { employmentHistory } from '../employment/employment';
 import EmploymentCard from './EmploymentCard';
+import { animated, useInView } from 'react-spring';
 
 export default function Employment() {
+  const [ref, springs] = useInView(
+    () => ({
+      from: {
+        opacity: 0,
+        x: 100,
+      },
+      to: {
+        opacity: 1,
+        x: 0,
+      },
+    }),
+    {
+      rootMargin: '-10% 0%',
+      once: true,
+    },
+  );
+
   return (
-    <div id="employment-block" className="container">
+    <animated.div
+      ref={ref}
+      style={springs}
+      id="employment-block"
+      className="container"
+    >
       <div id="employment-header">
         <h1 id="title" className="text-3xl font-semibold">
           Employment
@@ -26,6 +51,6 @@ export default function Employment() {
           );
         })}
       </div>
-    </div>
+    </animated.div>
   );
 }

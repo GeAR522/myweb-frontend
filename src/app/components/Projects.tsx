@@ -1,14 +1,39 @@
+'use client';
+
 import React from 'react';
 import { Project } from '../types/global_types';
 import ProjectCard from './ProjectCard';
+import { animated, useInView } from 'react-spring';
 
 interface IProjects {
   projects: Project[];
 }
 
 export default function Projects({ projects }: IProjects) {
+  const [ref, springs] = useInView(
+    () => ({
+      from: {
+        opacity: 0,
+        x: 100,
+      },
+      to: {
+        opacity: 1,
+        x: 0,
+      },
+    }),
+    {
+      rootMargin: '-10% 0%',
+      once: true,
+    },
+  );
+
   return (
-    <div id="projects-block" className="container">
+    <animated.div
+      ref={ref}
+      id="projects-block"
+      style={springs}
+      className="container"
+    >
       <div id="projects-header">
         <h1 id="projects-title" className="text-3xl font-semibold">
           Projects
@@ -26,6 +51,6 @@ export default function Projects({ projects }: IProjects) {
           );
         })}
       </div>
-    </div>
+    </animated.div>
   );
 }

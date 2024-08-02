@@ -8,7 +8,7 @@ export default function CenteredContent({
   return (
     <div
       id="centered-content"
-      className="h-full flex items-center justify-center m-6 flex-col no-scrollbar"
+      className="h-full flex items-center justify-center px-6 mt-6 pb-6 overflow-hidden flex-col "
     >
       {children}
     </div>

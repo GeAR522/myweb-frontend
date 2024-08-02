@@ -14,8 +14,8 @@ export default function NavBar() {
   }
 
   return (
-    <div className="hidden md:block">
-      <div className="h-full w-48 fixed top-0 left-0 bg-slate-900 text-white">
+    <div className="hidden md:block" id="navbar">
+      <div className="h-full w-48 fixed top-0 left-0 bg-slate-900 text-white  navbar-fade-in-left">
         <div id="navbar-profile-pic" className=" pt-4 flex justify-center">
           <Image
             className=" rounded-full"
