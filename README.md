@@ -1,5 +1,7 @@
 # My website
 
+Available at: https://www.garhodes.co.uk/
+
 This is the frontend of my simple website. It currently doesnt make any requests and is a static website.
 
 I plan to add the django backend I'm working on which will allow people to register, login, etc, and comment on posts which I will make.
@@ -7,7 +9,7 @@ A mini-blog so the speak to write about what I am learning and planning for the 
 
 This is a simple nextjs frontend project using React and Typescript. 
 
-It includes a small welcome message, a little bit about myself, my projects current projects, and my employment history.
+It includes a small welcome message, a little bit about myself, my current projects, and my employment history.
 
 
 
