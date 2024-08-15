@@ -7,6 +7,7 @@ import Divider from './components/Divider';
 import Projects from './components/Projects';
 import { ListOfProjects } from './projects/projects';
 import Employment from './components/Employment';
+import Posts from './components/Posts';
 
 export default function Home() {
   return (
@@ -22,6 +23,8 @@ export default function Home() {
             <Projects projects={ListOfProjects} />
             <Divider />
             <Employment />
+            <Divider />
+            <Posts />
           </CenteredContent>
         </div>
       </div>
