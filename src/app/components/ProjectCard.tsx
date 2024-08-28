@@ -37,7 +37,7 @@ export default function ProjectCard({ project, isFinalCard }: IProjectCard) {
             </h5>
           </div>
         </a>
-        <p className="text-lg pl-2">{description}</p>
+        <p className="text-lg pl-2 whitespace-pre-wrap">{description}</p>
       </div>
     </div>
   );
