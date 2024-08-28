@@ -15,9 +15,7 @@ It includes a small welcome message, a little bit about myself, my current proje
 
 ## TODO
 
-- Finish Django backend to add blog potsts + comments to site.
-
-- Add fade in to each section on intitial load
+- Add fade in to each section on intitial load - done
 
 - choose a proper colour palette and use it.
 
@@ -25,7 +23,7 @@ It includes a small welcome message, a little bit about myself, my current proje
 
 - footer? (maybe not necessary)
 
-- link to linkedin somewhere
+- link to linkedin somewhere - done
 
 - set more tailwind classes to simplify classnames of components.
     - card
