@@ -14,7 +14,7 @@ export default function Projects({ projects }: IProjects) {
     () => ({
       from: {
         opacity: 0,
-        x: 100,
+        x: -100,
       },
       to: {
         opacity: 1,
