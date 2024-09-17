@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { animated, useInView } from 'react-spring';
 
 const welcomeText =
-  'This is my personal website. It will likely always be a work in progress as I plan to add to it as I learn more and develop myself. This is where I will keep my employment history and projects I work on in my spare time. \n\nI have experience in full stack web app development using Typescript and React for frontend development and Ruby on Rails for backend development. I have built a simple projects using Django and React and a few other small python apps. I also have an interest in data analysis, which is why I am learning to use Microsoft Power BI with the intention to take the PL-300 exam. \n\nRegarding furthering my webapp skills, I want to learn more about threejs and D3js to make visuals more entertaining and interactive. I think using threejs to make models will help make sites unique and also offer the ability toemploy unique navigation techniques. I think learning how to use D3js will connect well to data analysis and help make both understanding and interacting with data easier for everyone. Helping to visualise data trends can help to inform people and bolster support for data-driven decisions. \n\nI am currently looking for a full time position as a web developer using my experience of Ruby on Rails or a entry level data analysis position to learn more about the field of data science and make use of python and Microsoft Power BI. I am always looking for a challenge and am excited to learn more.';
+  'This is my personal website. It will likely always be a work in progress as I plan to add to it as I learn more and develop myself. This is where I will keep my employment history and projects I work on in my spare time. \n\nI have experience in fullstack webapp development using Typescript and React for frontend development and Ruby on Rails for backend development. I have built a simple project using Django and React and a few other small python apps; a mortgage repayment calculator and a webscraper to capture the details of the cheapest rentals in my area. \n\nI plan to build more projects in the future, in both Rails and NextJS. I am also currently studying and learning about cyber security as it is both a very interesting and compelling field, but I am also looking for a career swap into the industry as I believe it is very important for everyone. ';
 
 export default function WelcomeBlock() {
   const [ref, springs] = useInView(
@@ -40,7 +40,7 @@ export default function WelcomeBlock() {
       <div id="welcome-block-content" className="py-6">
         <p className="whitespace-pre-wrap text-lg">{welcomeText}</p>
       </div>
-      <a
+      {/* <a
         className="flex w-fit"
         target="_blank"
         href="https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/?practice-assessment-type=certification"
@@ -58,7 +58,7 @@ export default function WelcomeBlock() {
             alt="power-bi-icon"
           />
         </div>
-      </a>
+      </a> */}
     </animated.div>
   );
 }
