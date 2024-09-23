@@ -26,7 +26,7 @@ export const ListOfProjects: Project[] = [
     id: 4,
     title: 'Jersey Everything - Ruby on Rails API + Nextjs + Postgresql',
     description:
-      'This is a webapp that I plan to make and launch that will be all about Jersey, the island I live on and love. I have a lot to finish with this, including adjusting refresh tokens for devise_jwt as they only use access tokens by default. But the end goal is to put all the skills I want to learn to use here. \n\nThreejs to add an interesting model with which to search with. D3js to show information about the island as you check out the parishes and the places. I am using both Nextjs and Rails because I like both frameworks and want to be able use both well. The main link is the frontend and the backend is at this link: https://github.com/GeAR522/je_rails',
+      'This is a webapp that I plan to make and launch that will be all about Jersey, the island I live on and love. I have a lot to finish with this, including adjusting refresh tokens for devise_jwt as they only use access tokens by default. But the end goal is to put all the skills I want to learn to use here. \n\nThreejs to add an interesting model with which to search with. D3js to show information about the island as you check out the parishes and the places. I am using both Nextjs and Rails because I like both frameworks and want to be able use both well. The main link is the frontend and the backend is at this link: https://github.com/GeAR522/je_rails \n\nCurrently on hold.',
     url: 'https://github.com/GeAR522/je_next',
   },
 ];

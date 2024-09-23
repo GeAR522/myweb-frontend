@@ -10,15 +10,13 @@ It includes a small welcome message, a little bit about myself, my current proje
 
 --
 
-## TODO
+## TODO - ON HOLD
 
 - Add fade in to each section on intitial load - done
 
 - choose a proper colour palette and use it. - meh
 
 - fix the rounding on profile picture - done
-
-- footer? (maybe not necessary)
 
 - link to linkedin somewhere - done
 
@@ -28,7 +26,7 @@ It includes a small welcome message, a little bit about myself, my current proje
   - fonts
   - title/headers
 
-- extract some elements out of project and employment cards into a singular card and then try customise it within each section to make a more reuseable card component.
+- extract some elements out of project and employment cards into a singular card and then customise it within each section to make a more reuseable card component.
 
 ---
 
