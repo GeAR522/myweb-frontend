@@ -51,6 +51,14 @@ body {
   @apply bg-blue_violet-400;
 }
 
+.form-input {
+  @apply my-2 px-3 min-w-96 min-h-10 text-black;
+}
+
+.form-button {
+  @apply my-4 bg-blue_violet-400 w-full min-h-10 hover:bg-blue_violet-300 rounded-lg;
+}
+
 h1 {
   font-family: 'Dosis', sans-serif;
   font-optical-sizing: auto;

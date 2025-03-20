@@ -5,6 +5,12 @@ import Image from 'next/image';
 import Divider from './Divider';
 
 export default function NavBar() {
+  const [isAuthorised, setIsAuthorised] = React.useState(false);
+
+  React.useEffect(() => {
+    setIsAuthorised(localStorage.getItem('access_token') !== null);
+  }, []);
+
   function handleScrollTo(e: any, id: string) {
     e.preventDefault();
     const element = document.getElementById(id);
@@ -17,6 +23,12 @@ export default function NavBar() {
     e.preventDefault();
 
     window.open(link, '_blank');
+  }
+
+  function logout() {
+    localStorage.removeItem('access_token');
+    localStorage.removeItem('refresh_token');
+    window.location.reload();
   }
 
   return (
@@ -61,6 +73,29 @@ export default function NavBar() {
             className="block py-4 px-6 hover-colour"
           >
             Employment
+          </a>
+          <a
+            onClick={(e) => handleScrollTo(e, 'blog-block')}
+            href="#blog-block"
+            className="block py-4 px-6 hover-colour"
+          >
+            Blog
+          </a>
+          {isAuthorised ? (
+            <a
+              onClick={() => logout()}
+              href="#logout"
+              className="block py-4 px-6 hover-colour"
+            >
+              Logout
+            </a>
+          ) : (
+            <a href="/login" className="block py-4 px-6 hover-colour">
+              Login
+            </a>
+          )}
+          <a href="/register" className="block py-4 px-6 hover-colour">
+            Register
           </a>
         </div>
         <div id="navbar-bottom" className="flex flex-row">
